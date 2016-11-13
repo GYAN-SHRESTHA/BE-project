@@ -1,0 +1,226 @@
+﻿.row1{
+    height:350px;
+    width:1450px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background-image:url('../images/crowd.jpg');
+    font-size:40px;
+
+}
+.row1 ul{
+    position:absolute;
+    left:0px;
+    top:100px;
+    color:red;
+}
+.row1 ul:hover{
+    font-size:45px;
+    color:blue;
+}
+.row2
+{
+
+    height:400px;
+    width:250px;
+    position:absolute;
+    top:350px;
+    left:0px;
+    font-size:25px;
+    background-color:green;
+    /*background-image: url('../image/dropdown.jpg');*/
+}
+.row2:hover{
+    background-color:#ffffff;
+}
+row2 ul{
+    position:absolute;
+    color: red;
+    left:0px;
+    top:100px;
+    
+}
+.row2 ul a{
+    color:red;
+}
+.row2 ul a:hover{
+    font-size:30px;
+    color:blue;
+}
+.ret{
+    position:absolute;
+    top:550px;
+    left:0px;
+    font-size:25px;
+    background-color:green;
+}
+ret ul{
+    position:absolute;
+    color: red;
+    left:50px;
+    top:100px;
+    
+}
+.bond{
+    position:absolute;
+    top:375px;
+    left:350px;
+}
+.bond ul li{
+    font-size:50px;
+    color:grey;
+    display:inline-block;
+}
+.r{
+    padding:0px;
+    font-size:35px;
+    height:50px;
+}
+.r ul{
+    position:absolute;
+    top:450px;
+    left:500px;
+}
+.r ul li{
+    background-color:black;
+    display:inline-block;
+   /* background-color:green;*/
+}
+.r ul li:hover{
+    color:violet;
+    font-size:larger;
+}
+.s{
+    padding:0px;
+    font-size:35px;
+    height:50px;
+}
+.s ul{
+    position:absolute;
+    top:550px;
+    left:500px;
+}
+.s ul li{
+    background-color:black;
+    display:inline-block;
+   /* background-color:green;*/
+}
+.s ul li:hover{
+    color:violet;
+    font-size:larger;
+}
+.success{
+    padding:0px;
+    font-size:35px;
+    height:50px;
+    left:250px;
+}
+.success ul{
+    position:absolute;
+    top:400px;
+    left:250px;
+}
+.success ul li{
+    background-image:url('../images/color.jpg');
+    display:inline-block;
+}
+.app{
+    padding:0px;
+    font-size:35px;
+    height:50px;
+    left:250px;
+}
+.app ul{
+    position:absolute;
+    top:500px;
+    left:375px;
+    background-image: url('../images/color.jpg');
+    display:inline-block;
+}
+.sta{
+    padding:0px;
+    font-size:35px;
+    height:50px;
+    left:375px;
+}
+.sta ul{
+    position:absolute;
+    top:600px;
+    left:375px;
+    background-image:url(../images/sept15_03_535621603.jpg);
+    display:inline-block;
+}
+.sta ul li{
+    color:red;
+}
+.search{
+    position:absolute;
+    top:350px;
+    left:375px;
+    background-color:lightgreen;
+    display:inline-block;
+    font-size:12px;
+}
+.g
+{
+    position:absolute;
+    top:350px;
+    left:0px;
+    height:500px;
+    width:250px;
+    background-image: url('../images/dropdown.jpg');
+}
+.g:hover{
+    background-color:white;
+}
+.g ul{
+    font-size:20px;
+    display:block;
+
+}
+.g ul:hover{
+    background-color:grey;
+    font-size:30px;
+}
+.bot
+{
+    position:absolute;
+    top:245px;
+    left:0px;
+    height:50px;
+    width:250px;
+    background-color:palegreen;
+}
+.bot ul{
+    font-size:20px;
+    display:block;
+
+}
+.bot ul:hover{
+    background-color:grey;
+    font-size:30px;
+}
+.imagebox{
+    position:absolute;
+    top:250px;
+    left:250px;
+    height:300px;
+    width:500px;
+    font-size:40px;
+}
+.imagename{
+    position:absolute;
+    top:200px;
+    left:100px;
+    font-size:20px;
+    background-color:black;
+}
+.pic{
+    height:250px;
+    width:250px;
+    position:absolute;
+    top:0px;
+    left:200px;
+    font-size:40px;
+
+}

@@ -1,0 +1,34 @@
+﻿@model Madds.Models.UserLogin
+<link href="~/Content/StyleSheet1.css" rel="stylesheet" type="text/css" media="all" />
+
+<div class="row1">
+    <ul>REAL TIME PERSON IDENTIFICATION AND LOCATION DETECTION SYSTEM</ul>
+</div>
+<div class="g">
+    <ul><li><a href="../Home/About">ABOUT</a></li></ul>
+    <ul><li><a href=".../Home/Contact">Contact</a></li></ul>
+    <div class="bot">
+        <ul> <li><a href="Index">Back Home</a></li></ul>
+    </div>
+</div>
+<div class="bond">
+   <div>
+        <div style="background-color:aqua">
+            Login to Start Searching
+        </div>
+@using (Html.BeginForm())
+{ 
+        <p>
+            @Html.TextBoxFor(m => m.UserName, new { placeholder = " Enter User Name" })
+        </p>
+        <p>
+            @Html.PasswordFor(m => m.Password, new { placeholder = " Enter Password" })
+        </p>
+
+        <button type="submit" class="btn btn-default">Login</button>
+        
+
+}
+</div>
+        </div>
+

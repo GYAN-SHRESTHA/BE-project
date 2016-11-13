@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Madds.Models.Link>
+    @{
+        ViewBag.Title = "Result";
+    }
+    <h2>RESULT OF THE SEARCH</h2>
+
+    <div>
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Searchname)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.location)
+                </th>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Searchname)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.location)
+                    </td>
+                </tr>
+                }
+        </table>
+    </div>
+    <div class="imagename">
+        @Html.ActionLink("Done Searching", "Re", "Links")
+    </div>

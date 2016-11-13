@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Home Page";
+    }
+
+<link href="~/Content/StyleSheet1.css" rel="stylesheet" type="text/css" media="all" />
+
+<div class="row1">
+   <ul>REAL TIME PERSON IDENTIFICATION AND LOCATION DETECTION</ul> 
+</div>
+<div class="g">
+    <ul><li><a href="../Home/About">ABOUT</a></li></ul>
+    <ul><li><a href=".../Home/Contact">Contact</a></li></ul>
+    <div class="bot">
+       <ul> <li><a href="Index">Back Home</a></li></ul>
+    </div>
+</div>
+<div class="bond">
+    <ul>
+        <li>START USING APP</li>
+    </ul>
+</div>
+<div class="r">
+    <ul>
+        <li>@Html.ActionLink("Sign Up", "Create", "Registers1", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+    </ul>
+    </div>
+<div class="s">
+    <ul>
+        <li>@Html.ActionLink("Log in ", "Login", "Registers1", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>
+</div>
